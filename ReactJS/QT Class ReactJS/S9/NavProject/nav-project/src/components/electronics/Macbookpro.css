@@ -1,0 +1,38 @@
+.macbookpro{
+    width:95%;
+    height:500px;
+    margin: auto;
+    margin-top: 100px;
+   /* border:2px solid black;*/
+    display:flex;   
+    gap:50px;
+}
+
+.content h1{
+    margin-top: 20px;
+    font-size:45px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size:22px;
+    margin-bottom: 20px;    
+}
+
+.content button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    /*transition: background-color 0.3s ease;*/
+    transition: opacity 0.3s; /* Smooth transition for hover effect */
+}
+
+.content button:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+  /*  background-color: #333;*/
+}

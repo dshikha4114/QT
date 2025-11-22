@@ -1,0 +1,7 @@
+Task
+Card- 
+1) Img 
+2) title of product that is name of product
+3) Price of product
+4) 2 buttons 
+	a) products details b) Add to cart

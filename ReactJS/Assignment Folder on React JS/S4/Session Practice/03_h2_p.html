@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+    <head>
+        <!--https://legacy.reactjs.org/-->
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+            var h2 = <h2>ReactJS</h2>
+            var p = (<p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, unde perferendis! Tenetur voluptatem autem quam porro fugit! Tempora numquam alias eius vero laudantium necessitatibus quidem beatae dolor nostrum repellat enim omnis iste quod fugiat ex, tempore magnam excepturi rem nam.</p>);
+            ReactDOM.render([h2,p],document.getElementById("root"));
+        </script>
+    </body>
+</html>

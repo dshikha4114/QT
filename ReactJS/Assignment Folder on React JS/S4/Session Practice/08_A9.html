@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+    <head>
+        <!--https://legacy.reactjs.org/-->
+        <!--babeljs.io-->
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+           var container=(<div> 
+    <h2>Student Grades</h2> 
+    <table border="1"> 
+      <thead> 
+        <tr> 
+          <th>Name</th> 
+          <th>Grade</th> 
+        </tr> 
+      </thead> 
+      <tbody> 
+        <tr> 
+          <td>John Doe</td> 
+          <td>A</td> 
+        </tr> 
+        <tr> 
+          <td>Jane Smith</td> 
+          <td>B</td> 
+        </tr> 
+        <tr> 
+          <td>Emily Davis</td> 
+          <td>A</td> 
+        </tr> 
+      </tbody> 
+    </table> 
+  </div> );
+
+  ReactDOM.render(container, document.getElementById("root"));
+                   
+        </script>
+    </body>
+</html>
+
+
+  

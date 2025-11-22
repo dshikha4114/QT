@@ -1,0 +1,5 @@
+1) Do styling for buttons
+2) Click on add to cart that product add in cart
+3) Click on add cart icon that proct will be visible like the table form   total amount , discount all that
+4) click proceed navigate to the  orders page or payment page , order is done 
+5)

@@ -1,0 +1,2 @@
+1. Create 5 API
+2. Create LOGIN and SIGNUP page with proper styles

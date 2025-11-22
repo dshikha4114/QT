@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script>
+            //React code
+            var th1=React.createElement("th",null,"Name");
+            var th2=React.createElement("th",null,"Grade");
+            var tr1=React.createElement("tr",null,[th1,th2]);
+
+            var thead=React.createElement("thead",null,tr1);
+
+            var td1=React.createElement("td",null,"John Doe");
+            var td2=React.createElement("td",null,"A");
+
+            var tr2=React.createElement("tr",null,[td1,td2]);
+
+            var td3=React.createElement("td",null,"Jane Smith");
+            var td4=React.createElement("td",null,"B");
+
+            var tr3=React.createElement("tr",null,[td3,td4]);
+
+            var td5=React.createElement("td",null,"Emily Davis");
+            var td6=React.createElement("td",null,"A");
+
+            var tr4=React.createElement("tr",null,[td5,td6]);
+
+            var tbody=React.createElement("tbody",null,[tr2,tr3,tr4]);
+
+            var table=React.createElement("table",null,[thead,tbody]);
+
+            var div=React.createElement("div",null,table);
+
+            ReactDOM.render(div,document.getElementById("root"));          
+        </script>
+
+    </body>
+</html>

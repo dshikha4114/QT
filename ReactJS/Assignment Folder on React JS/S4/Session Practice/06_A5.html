@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+    <head>
+        <!--https://legacy.reactjs.org/-->
+        <!--babeljs.io-->
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+           var container= (
+<div>
+<p>This is a paragraph</p> 
+<h2>Nested Structure</h2> 
+<div> 
+ <ol> 
+   <li>Item 1</li> 
+   <li>Item 2</li> 
+   <li>Item 3</li> 
+   <li>Item 4</li> 
+   <li>Item 5</li> 
+ </ol> 
+</div> 
+</div> );
+
+ReactDOM.render(container,document.getElementById("root"));
+                   
+        </script>
+    </body>
+</html>
+

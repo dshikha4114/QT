@@ -1,0 +1,21 @@
+client app - Html, css, javascript
+server app - html, json , text maintain some data in that file
+
+in html file of  client app - you maintain three buttons i.e. html button , json button, text button 
+
+You have to send one request to server when click on this button , then connect to html of server and get the data and display on web page
+
+
+
+2nd Assingnment
+
+1 login form 
+2 text boxes and one button 
+3 clicking on button access the data from text boxes and send one request to server 
+4 With that request send the data of these  text boxes
+5 req + data you have to send 
+6. create json file and add this data
+7. once data is added send the response back to the client
+8. Something user created
+
+

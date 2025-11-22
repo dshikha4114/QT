@@ -1,0 +1,9 @@
+1. If you are not Showing any data in The UI then don't show radio button on UI. when component load that time radio button should not be visible.(done)
+2. when you click on the button (is clicked )then only card will be visible(when you get the data), when card is visible then only radio button will be visible.(done)
+3. Initially button should be enabled and when you get the data then make the button disabled. Don't allow user to click on the button again. "Done"
+4. if you click on female radio button the female data will be visible , when you click on male radio button the male data will be visible , whwn you click on all radio button the all data will be visible. Done
+5. By default all will be clicked. Done
+6. Number of users value change as per to radio button clicked. Done
+
+This is the first example of API Integration of react
+

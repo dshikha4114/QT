@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script>
+            //React code
+            
+            var imgReactElement=React.createElement("img",{src:"https://th.bing.com/th/id/OIP.axZS0GE4034W7-mZJtghrAHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",width:500,height:500});
+            var h1ReactElement=React.createElement("h1",null,"Hello, This is H1");
+            var pReactElement=React.createElement("p",null,"This is paragraph");
+            ReactDOM.render([imgReactElement,h1ReactElement,pReactElement],document.getElementById("root"));
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+.app{
+  color:red;
+}
+.categories1{
+  margin-top:30px;
+  display:flex;
+  justify-content:space-evenly;
+}
+.pccontainer{
+  text-align:center;
+  margin-top:40px;
+}

@@ -1,0 +1,14 @@
+.d{
+         width: 230px;
+        height: 380px; 
+        box-shadow: 0 0 10px black;
+        text-align: center; 
+margin: 10px auto;
+        
+}
+button{
+        background-color: orange;
+        padding:10px 30px;
+        color:white;
+        border:transparent;
+}

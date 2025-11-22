@@ -1,0 +1,23 @@
+const express = require("express");
+const auth = require("../middleware/auth");
+const Project = require("../models/Project");
+
+const router = express.Router();
+
+router.get("/", async (req, res) => {
+  const projects = await Project.find();
+  res.json(projects);
+});
+
+router.post("/", auth, async (req, res) => {
+  const newProject = new Project(req.body);
+  await newProject.save();
+  res.json(newProject);
+});
+
+router.delete("/:id", auth, async (req, res) => {
+  await Project.findByIdAndDelete(req.params.id);
+  res.json({ message: "Project deleted" });
+});
+
+module.exports = router;

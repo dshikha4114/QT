@@ -1,0 +1,37 @@
+Redux 
+Redux is all about sharing the data between components irrespective of relations , parent to child , child to parent or siblings
+
+1) It is a state management tool
+
+.....> here state is data 
+.....> one component to another component to share the data then go for redux
+
+
+
+2)To implement state management - redux provides us predefined functions and objects
+
+3) It is a library to manage the data of applications
+
+
+
+
+.....................................................................................................
+Redux is a state management tool and library.
+Redux is used to share the data between the components.
+1. Create Redux Store
+2. Add the data in the redux store.
+3. Access the data from the redux store.
+
+1. How to create Redux Store.
+a) install redux
+
+npm install redux
+
+b) create store in store.js
+
+import {legacy_createStore} from 'redux';
+let mystore=legacy_createStore();
+export default mystore;
+
+
+c) export the store

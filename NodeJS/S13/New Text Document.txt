@@ -1,0 +1,4 @@
+Access the data from Singnup page and print it in console 
+Gender data also use if else
+
+Access the data from Login page and print it in console 

@@ -1,0 +1,10 @@
+1. Login Component
+2. Home Component
+3. Wrapper Component
+4. App Component
+5. Nav Component
+
+
+
+when user clicks on login button
+After clicking logout button , show login button

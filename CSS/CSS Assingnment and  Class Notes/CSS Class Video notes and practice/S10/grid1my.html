@@ -1,0 +1,61 @@
+<html>
+    <head>
+            <title>The Grid Container</title>
+            <style>
+                .gridcontainer{
+                    width:820px;
+                    height:420px;
+                   /* border:2px solid green;*/
+                    /*box-shadow:0 0 10px black;*/
+                    margin: 50px auto;
+                    display:grid;
+                    grid-template-columns:300px 300px 200px;
+                    grid-template-rows:100px 150px 150px;
+                    gap:10px;
+
+                }
+                .item1{
+                    background-color:pink;   
+                    order:1;             
+                }
+                .item2{
+                    background-color:purple;
+                }
+                .item3{
+                    background-color:aqua;
+                }
+                .item4{
+                    background-color: darkblue; 
+                    order:2;               
+                }
+                .item5{
+                    background-color:palegoldenrod;
+                }
+                .item6{
+                    background-color:rgb(95, 17, 47);
+                }
+                .item7{
+                    background-color: lemonchiffon;                
+                }
+                .item8{
+                    background-color:hotpink;
+                }
+                .item9{
+                    background-color:lemonchiffon;
+                }
+            </style>
+    </head>
+    <body>
+        <div class="gridcontainer">
+            <div class="item1">One</div>
+            <div class="item2">Two</div>
+            <div class="item3">Three</div>
+            <div class="item4">Four</div>
+            <div class="item5">Five</div>
+            <div class="item6">Six</div>
+            <div class="item7">Seven</div>
+            <div class="item8">Eight</div>
+            <div class="item9">Nine</div>
+        </div>
+    </body>
+</html>

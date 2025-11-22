@@ -1,0 +1,111 @@
+Routing in react JS
+1) Routing is a technique to switch from one component to another components in react ()the application
+or
+Navigate from one part of application to another part of application 
+
+2) We cannot implement routing in application using react library
+
+3) Using react router Library , we can implement routing in react app.
+
+
+----Library----
+It is a JS file which contains predefined functions , objects and classes
+
+
+4) React-router Library...In this js file , We will get pre-defined react component and we will get predefined hooks
+
+5)We have to implement these(4) to implement routing 
+-----
+6) Predefined Components- BrowseRouter, Route, Routes, Link, NavLink, Navigate, Outlet etc etc  
+
+7) useParams, useSearchParams, useNavigate, useLocation, useHistory
+(any function whose name starts with use called hook, even we create a function whose name starts with use , that function is called custom hook.
+
+
+
+Steps for routing in react js
+.............................
+I) Install and download the library - a) npm install react-router-dom
+
+( before installing check once package.json file)
+
+
+
+
+II) Import BrowserRouter Component from react-router-dom and render Parent Comp of the application(in our case App Component) inside the BrowserRouter
+
+Check in the application where we are rendering the App Component , in our application we are rendering inside main component then go to main comp. and do II) step
+
+So that we can implement routing on App component and the children of app component
+
+internally routing using context API
+
+
+
+
+III) Add route path to every link in the application using href attribute
+
+
+All the links are in the nav bar components 
+
+
+<a href="/">Home</a>
+<a href="/mens">Mens</a>
+<a href="/womens">Womens</a> etc  (/ defines new path)
+
+
+
+
+IV) Define the route using Route Component of react-router-dom
+
+here, Defining route means, based on url route path render the component
+
+in App.jsx file , in app only we are rendering all the components
+
+
+remove all home, mens, womens etc compnents
+
+import {Route} from "react-router-dom"
+
+render Route component below <Nav/>
+
+<Nav/>
+<Route></Route> as self closing tag or opening or closing tag , use two pre defined(path , element) props by react-roter-dom
+
+<Route path={"/"} element={<Home/>}/> if in route path / is there then load Home Component etcetc 
+
+
+<Route path={"/"} element={<Home/>}/>
+
+
+
+
+V)Wrap all Route Component inside the Routes Component
+
+import <Route, Routes> from "react-router-dom"
+
+<Routes>
+   <Route path={"/"} element={<Home/>}/>etc
+</Routes>
+
+
+VI) create Pagenotfound.jsx in pagenotfound folder
+<Route path={"*"} element={<Home/>}/>//wild Route
+
+
+VII) Replace all anchor elements in the application with Link component and href attribute with to props.
+
+import {Link} from 'react-router-dom'
+
+
+go to Nav.jsx
+
+<Link to="/" > Home <Link> etc 
+
+Single Page Application - contains single html file which is loaded in the browser and whose contains will be changed using javascript APIs
+
+
+
+
+
+

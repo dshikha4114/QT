@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+    <head>
+        <style>
+            .techContainer{
+                box-shadow: 0 0 10px green;
+                margin: 30px auto;
+                width: 1000px;
+                padding: 30px;
+                background-color: black;
+                color:cornsilk;s
+            }
+        </style>
+        <!--https://legacy.reactjs.org/-->
+        <!--babeljs.io-->
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+           function myContainer(title){
+                return (<div className="techContainer">
+                        <h1>{title}</h1> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt quod quia nihil harum possimus? Non inventore nobis fugiat dolore veniam ex magni perspiciatis earum impedit commodi fuga harum, beatae eum eveniet explicabo voluptates esse quaerat architecto asperiores quae a. Culpa cumque distinctio odit rerum iure corporis ipsum, fugiat dolores.</p>  
+                </div>);
+           }
+
+           function app(){
+            return(
+                <div>
+                        {myContainer("HTML")} 
+                        {myContainer("CSS")} 
+                        {myContainer("JAVASCRIPT")} 
+                        {myContainer("REACT JS")}
+                </div>
+            )
+           }
+           ReactDOM.render(app(),document.getElementById("root"));
+                   
+        </script>
+    </body>
+</html>

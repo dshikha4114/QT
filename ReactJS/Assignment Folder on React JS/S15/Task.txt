@@ -1,0 +1,36 @@
+User Profile Component
+
+-User Basic Details(name,gender,pincode, state etc) - 8 Fields
+-User Educational Details
+---------Graduation Details(4 years)
+-Professional Details (5 years)(3 Companies){company name, on what project you worked, in how many years you workeds, package n how much experience you have }
+
+
+
+
+1. create one main component called profile component
+2. Profile Component divide into 2 components.
+3. top-personal details,     bottom - Educational ddetails, Professional Details (botton divide into 2 component)
+[total profile component divide into 3 component ]
+
+
+Educational - 4 components
+Professional - 3 components
+
+
+Database-
+Create end points
+Create MongoDb database
+Create 3 collections - Personaldetails, professionaldetails, educationaldetails
+
+express, node - create end point
+
+we know get request like randomuser.me
+
+create one button , on click on that button , use get api , fetch the data from database that data will come to profile component
+
+inside the profile component , 3 commponents are displaying
+
+once the data comes from server
+
+create one context, profile to context , make available to all 3 i.e. personal Comp., Educational Comp., and Professional Comp.

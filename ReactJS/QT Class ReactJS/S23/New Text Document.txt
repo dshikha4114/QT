@@ -1,0 +1,8 @@
+53:00 
+
+Class Component 
+State in Class Componenent
+LifeCycle methods of Class component(30mins)
+React Portal(5 mins)
+Error Boundaries and last loading or code splitting(10 mins)
+useNavigate

@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+    <head>
+            <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+            <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    </head>
+    <html>
+    <div id="root"></div>
+    <script>
+        //React code
+        var pReactElement=React.createElement("p",null,"This is a paragraph");
+        var h2ReactElement=React.createElement("h2",null,"Nested Structure");
+        var li1=React.createElement("li",null,"Item1");
+        var li2=React.createElement("li",null,"Item2");
+        var li3=React.createElement("li",null,"Item3");
+        var li4=React.createElement("li",null,"Item4");
+        var li5=React.createElement("li",null,"Item5");
+        var olReactElement=React.createElement("ol",null,[li1,li2,li3,li4,li5]);
+        var div1ReactElement=React.createElement("div",null,olReactElement);
+        var divReactElement=React.createElement("div",null,[pReactElement,h2ReactElement,div1ReactElement]);
+        ReactDOM.render(divReactElement,document.getElementById("root"));
+    </script>
+    </html>
+</html>

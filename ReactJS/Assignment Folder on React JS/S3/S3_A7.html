@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script>
+            //React code
+            var a1=React.createElement("a",{href:"#Home"},"Home");
+            var a2=React.createElement("a",{href:"#About"},"About");
+            var a3=React.createElement("a",{href:"#Services"},"Services");
+            var a4=React.createElement("a",{href:"#Contact"},"Contact");
+
+            var li1=React.createElement("li",null,a1);
+            var li2=React.createElement("li",null,a2);
+            var li3=React.createElement("li",null,a3);
+            var li4=React.createElement("li",null,a4);
+
+            var ul=React.createElement("ul",null,[li1,li2,li3,li4]);
+
+            var h1=React.createElement("h1",null,"Website Navigation");
+
+            var nav=React.createElement("nav",null,[h1,ul]);
+
+            var div1=React.createElement("div",null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt nihil dolor consectetur vel aliquid fuga accusantium quibusdam blanditiis eos.");
+            var div2=React.createElement("div",null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt nihil dolor consectetur vel aliquid fuga accusantium quibusdam blanditiis eos.");
+            var div3=React.createElement("div",null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt nihil dolor consectetur vel aliquid fuga accusantium quibusdam blanditiis eos.");
+            var div4=React.createElement("div",null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt nihil dolor consectetur vel aliquid fuga accusantium quibusdam blanditiis eos.");
+        
+            ReactDOM.render(nav,document.getElementById("root"));
+
+            </script>
+        
+    </body>
+</html>

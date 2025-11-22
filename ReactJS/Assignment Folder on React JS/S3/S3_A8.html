@@ -1,0 +1,108 @@
+<!Doctype html>
+<html>
+    <head>
+        
+      <style>
+            *{
+            margin:0;
+            color:white;
+            font-family:cursive;
+        }
+      </style>  
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+             
+        <script>
+            
+        var h1=React.createElement("h1",{style:{color:"cornsilk"}},"Profile");
+        var div1=React.createElement("div",null,h1);
+        
+
+
+        var a1=React.createElement("a", 
+        {style:{ 
+            
+            textDecoration:"none",
+            fontSize:"17px",
+            marginRight:"30px"},
+           }
+        ,"Home");
+
+        var a2=React.createElement("a",
+        {style:{ 
+            
+            textDecoration:"none",
+            fontSize:"17px",
+            marginRight:"30px"},hover:"blue"}
+            ,"Electronics");
+
+        var a3=React.createElement("a",
+        {style:{ 
+            
+            textDecoration:"none",
+            fontSize:"17px",
+            marginRight:"30px"},hover:"blue"}
+        ,"Jewellery");
+
+        var a4=React.createElement("a",
+        {style:{ 
+            
+            textDecoration:"none",
+            fontSize:"17px",
+            marginRight:"30px"},hover:"blue"}
+        ,"Mens");
+
+        var a5=React.createElement("a",
+        {style:{ 
+            
+            textDecoration:"none",
+            fontSize:"17px",
+            marginRight:"30px"},hover:"blue"}
+        ,"Womens");
+        var div2=React.createElement("div",null,[a1,a2,a3,a4,a5]);
+
+        var a6=React.createElement("a",
+        {style:{ 
+            
+            textDecoration:"none",
+            fontSize:"17px",
+            marginRight:"30px"},hover:"blue"}
+            ,"Profile");
+
+        var a7=React.createElement("a",
+        {style:{ 
+            
+            textDecoration:"none",
+            fontSize:"17px",
+            marginRight:"30px"},hover:"blue"}
+        ,"Cart");
+
+        var button=React.createElement("button",
+        {style:{          
+            color:"red",
+            background:"none",
+            padding:"7px 21px",
+            border:"1px solid red",
+            borderRadius:"10px"},
+            hover:{backgroundColor:"red",
+            color:"white"}}
+        ,"Logout");
+
+        var div3=React.createElement("div",null,[a6,a7,button]);
+
+        var div4=React.createElement("div",{
+        style:{            
+            backgroundColor:"black",
+            height:"80px",
+            display:"flex",
+            justifyContent:"space-around",
+            alignItems:"center"}},
+            [div1,div2,div3]);
+        ReactDOM.render(div4,document.getElementById("root"));
+        </script>
+     
+    </body>
+</html>

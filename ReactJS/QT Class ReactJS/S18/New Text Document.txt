@@ -1,0 +1,29 @@
+Task
+Card- 
+1) Img 
+2) title of product that is name of product
+3) Price of product
+4) 2 buttons 
+	a) products details b) Add to cart
+
+
+Move the electronics code to Products
+utilize in all four 
+
+
+2 task)
+
+app comp. inside Login Comp., 
+
+login - usrnm, password , login button
+when user click on login button , app comp. then you have to remove login component and show home component + nav bar. 
+
+nav bar show logout button
+
+When click on log out show login comp 
+whwn click on login button show home comp.
+
+slag
+
+3) Navigate to product details page
+Show Complete Data of each product
